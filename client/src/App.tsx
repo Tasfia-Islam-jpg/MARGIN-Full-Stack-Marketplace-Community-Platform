@@ -1,8 +1,13 @@
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/home/Hero";
+// import Shelf from "./components/home/Shelf";
+
 function App() {
   return (
-    <div>
-      <h1>MARGIN</h1>
-      <p>Shop. Gather. Create.</p>
+    <div className="min-h-screen bg-[#F4E9D8] text-[#171717]">
+      <Navbar />
+      <Hero />
+     {/* // <Shelf /> */}
     </div>
   );
 }
